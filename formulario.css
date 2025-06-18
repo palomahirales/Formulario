@@ -1,6 +1,6 @@
 /* General */
 body {
-    font-family: Arial, sans-serif;
+    font: Arial;
     background-color: lightgreen;
     display: flex;
     justify-content: center;
@@ -20,11 +20,17 @@ h2 {
     margin-bottom: 25px;
     color: #333;
 }
-
-/* Formulario */
 label {
     display: block;
     margin-top: 15px;
     margin-bottom: 5px;
     color: #555;
 }
+
+label[for="masculino"],
+label[for="femenino"],
+label[for="tecnologia"],
+label[for="deportes"],
+label[for="musica"],
+label[for="arte"] {
+    display: inline-block;}
